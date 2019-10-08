@@ -18,3 +18,5 @@ async process({ guild, channel, author, member }, args) {
  }
  run () {}
 }
+
+module.exports = Command;
