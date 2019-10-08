@@ -8,3 +8,5 @@ this.setColor('#7298da');
 if (user) this.setFooter(user.tag, user.avatarURL).setTimestamp();
   }
  }
+
+module.exports = Embed;
