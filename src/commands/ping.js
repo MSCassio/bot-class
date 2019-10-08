@@ -14,3 +14,5 @@ async run ({ guild, author, channel }) {
 channel.send(new Embed(author).setDescription(`OWO! Minha latência atual é de **${parseInt(this.client.ping)} ms**!`));
  }
 }
+
+module.exports = PingCommand;
